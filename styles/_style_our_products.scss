@@ -1,5 +1,89 @@
 @import 'style_variables';
 
-.test {
-    font-family: $mainFont;
+.header_nav {
+	background-color: #f19d2f;
+}
+
+.header_nav__img {
+	display: block;
+	padding: 11px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main_logo {
+	background-color: #ffd1ac;
+}
+
+.main_logo__img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 218px;
+	padding: 20px;
+}
+
+.main_banner {
+	position: relative;
+}
+
+.main_banner__img {
+	position: relative;
+	width: 100%;
+	z-index: 0;
+}
+
+.main_banner__timer-wrapper {
+	position: absolute;
+	background-color: #f19d2f;
+	width: 103px;
+	height: 68px;
+	border-radius: 7.1px;
+	padding: 9px, 7.1px, 9px, 7.1px;
+	text-align: center;
+	color: #ffffff;
+	font-family: $mainFont;
+	font-size: 10.6px;
+	font-weight: 700;
+	z-index: 1;
+	top: 18.5em;
+	margin-left: 13px;
+}
+
+.main_banner__timer-text {
+	font-size: 10.6px;
+}
+
+.main_banner__timer {
+	font-size: 21.25px;
+}
+
+.main_banner__price-wrapper {
+	position: absolute;
+	background-color: #37d997;
+	width: 116px;
+	height: 68px;
+	border-radius: 5.68px;
+	padding: 6.49px, 7.02px, 5.68px, 7.02px;
+	text-align: center;
+	color: #ffffff;
+	font-family: $mainFont;
+	font-weight: 700;
+	z-index: 1;
+	top: 12.3em;
+	left: 16.5em;
+}
+
+.main_banner__price-old {
+	font-size: 18.08px;
+	margin-top: 5px;
+	margin-bottom: -0.8em;
+	text-decoration: line-through;
+	text-decoration-color: #e27500;
+	text-decoration-line: line-through;
+	text-decoration-thickness: 3.51px;
+}
+
+.main_banner__price-new {
+	font-size: 22.3px;
 }
