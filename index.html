@@ -14,7 +14,7 @@
             <img class="header_nav__img" src="assets/img/🇿🇦 SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA 🇿🇦.png"
                 alt="🇿🇦 SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA 🇿🇦"></nav>
     </header>
-    <main>
+    <main class="main">
         <div class="main_logo">
             <img class="main_logo__img" src="assets/img/logo.png" alt="Cushion. Orthopedic slippers">
         </div>
@@ -30,6 +30,70 @@
                 <p class="main_banner__price-new">R 160.00</p>
             </div>
         </div>
+        <aside class="main_brand">
+            <span>Excellent 4.8/5</span>
+            <img class="main_brand__img" src="assets/img/trustpilot.png" alt="Trustpilot">
+            <a class="main_brand__link" href="#">best selling</a>
+        </aside>
+        <section class="main_section">
+            <p class="main_section__title">ORTHOPEDIC SLIPPERS</p>
+            <div class="main_section__slider">
+                <img class="main_section__slider-img" src="assets/img/black.png" alt="большая иллюстрация товара">
+                <div class="main_section__slider-images">
+                    <img class="main_section__slider-image"
+                        onclick="document.querySelector('.main_section__slider-img').src = this.src;"
+                        src="assets/img/black.png" alt="маленькая иллюстрация товара">
+                    <img class="main_section__slider-image"
+                        onclick="document.querySelector('.main_section__slider-img').src = this.src;"
+                        src="assets/img/orange.png" alt="маленькая иллюстрация товара">
+                    <img class="main_section__slider-image"
+                        onclick="document.querySelector('.main_section__slider-img').src = this.src;"
+                        src="assets/img/pink.png" alt="маленькая иллюстрация товара">
+                    <img class="main_section__slider-image"
+                        onclick="document.querySelector('.main_section__slider-img').src = this.src;"
+                        src="assets/img/yellow.png" alt="маленькая иллюстрация товара">
+                </div>
+            </div>
+
+            <p><span class="main_section__description-bold">Fast Delivery:</span> 2-4
+                days from SA <img class="main_section__img" src="assets/img/flag-africa-south-country.png"
+                    alt="Флаг Южной Африки Национальный"></p>
+            <p><span class="main_section__description-bold">In Stock:</span> Shipping
+                from Johannesburg <img class="main_section__img" src="assets/img/flag-africa-south-country.png"
+                    alt="Флаг Южной Африки Национальный"></p>
+
+            <article class="rating_cont">
+                <img class="rating_cont__img" src="assets/img/star=fill.png" alt="star">
+                <img class="rating_cont__img" src="assets/img/star=fill.png" alt="star">
+                <img class="rating_cont__img" src="assets/img/star=fill.png" alt="star">
+                <img class="rating_cont__img" src="assets/img/star=fill.png" alt="star">
+                <img class="rating_cont__img" src="assets/img/star=fill.png" alt="star">
+                <span> (10)</span>
+            </article>
+            <section class="main_section__options">
+                <div class="main_section__cont-select">
+                    <label class="main_section__label-select" for="color">color</label>
+                    <select class="main_section__select" name="color" id="color">
+                        <option value="Black">Black</option>
+                        <option value="Orange">Orange</option>
+                        <option value="Pink">Pink</option>
+                        <option value="Yellow">Yellow</option>
+                    </select>
+                </div>
+                <div class="main_section__cont-select">
+                    <label class="main_section__label-select" for="size">size</label>
+                    <select class="main_section__select" name="size" id="size">
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </section>
+            <button class="main_section__button" onclick="window.location.href = 'https://youtube.com';">BUY
+                NOW</button>
+        </section>
+
     </main>
     <script src="index.js"></script>
 </body>

@@ -11,6 +11,10 @@
 	margin-right: auto;
 }
 
+.main {
+	font-family: $mainFont;
+}
+
 .main_logo {
 	background-color: #ffd1ac;
 }
@@ -42,12 +46,11 @@
 	padding: 9px, 7.1px, 9px, 7.1px;
 	text-align: center;
 	color: #ffffff;
-	font-family: $mainFont;
 	font-size: 10.6px;
 	font-weight: 700;
 	z-index: 1;
 	top: 18.5em;
-	margin-left: 13px;
+	margin-left: 1em;
 }
 
 .main_banner__timer-text {
@@ -67,11 +70,10 @@
 	padding: 6.49px, 7.02px, 5.68px, 7.02px;
 	text-align: center;
 	color: #ffffff;
-	font-family: $mainFont;
 	font-weight: 700;
 	z-index: 1;
 	top: 12.3em;
-	left: 16.5em;
+	margin-left: 16.5em;
 }
 
 .main_banner__price-old {
@@ -86,4 +88,104 @@
 
 .main_banner__price-new {
 	font-size: 22.3px;
+}
+
+.main_brand {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: 5px;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.main_brand__img {
+	width: 72px;
+	height: 18px;
+}
+
+.main_brand__link {
+	color: #37d997;
+}
+
+.main_section {
+	margin-left: 16px;
+	margin-right: 16px;
+	font-size: 15px;
+}
+
+.main_section__title {
+	font-size: 19px;
+	font-weight: 700;
+	font-style: normal;
+	color: #2c2b31;
+}
+
+.main_section__slider-img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.main_section__slider-images {
+	display: flex;
+	justify-content: space-between;
+	margin: 3% auto;
+}
+
+.main_section__slider-image {
+	width: 80px;
+	border-radius: 10px;
+}
+
+.main_section__img {
+	width: 1em;
+}
+
+.main_section__description-bold {
+	font-weight: 900;
+}
+
+.rating_cont__img {
+	width: 14px;
+	height: 13px;
+}
+
+.main_section__cont-select {
+	display: flex;
+	flex-direction: column;
+}
+
+.main_section__label-select {
+	font-size: 10px;
+	text-align: center;
+	margin: 3%;
+	margin-top: 1vh;
+}
+
+.main_section__select {
+	font-size: 21px;
+	font-weight: 700;
+	padding: 15px 30px;
+	border-radius: 15px;
+	width: 170px;
+	height: 64px;
+	text-align: center;
+}
+
+.main_section__options {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main_section__button {
+	background-color: #37d997;
+	border-radius: 15px;
+	border-color: #ffffff;
+	color: #ffffff;
+	font-size: 30px;
+	width: 100%;
+	padding: 10px 0;
+	margin: 3% 0;
 }
