@@ -49,8 +49,8 @@
 	font-size: 10.6px;
 	font-weight: 700;
 	z-index: 1;
-	top: 18.5em;
-	margin-left: 1em;
+	margin-top: -23%;
+	margin-left: 5%;
 }
 
 .main_banner__timer-text {
@@ -72,8 +72,8 @@
 	color: #ffffff;
 	font-weight: 700;
 	z-index: 1;
-	top: 12.3em;
-	margin-left: 16.5em;
+	margin-top: -23%;
+	margin-left: 70%;
 }
 
 .main_banner__price-old {
@@ -152,6 +152,11 @@
 	height: 13px;
 }
 
+.main_section__options {
+	display: flex;
+	justify-content: space-between;
+}
+
 .main_section__cont-select {
 	display: flex;
 	flex-direction: column;
@@ -169,14 +174,9 @@
 	font-weight: 700;
 	padding: 15px 30px;
 	border-radius: 15px;
-	width: 170px;
-	height: 64px;
+	width: 45vw;
+	height: 100%;
 	text-align: center;
-}
-
-.main_section__options {
-	display: flex;
-	justify-content: space-between;
 }
 
 .main_section__button {
@@ -188,4 +188,31 @@
 	width: 100%;
 	padding: 10px 0;
 	margin: 3% 0;
+}
+
+@media screen and (max-width: 387px) {
+	.main_banner__timer-wrapper {
+		margin-top: -28%;
+	}
+
+	.main_banner__price-wrapper {
+		margin-top: -28%;
+		margin-left: 60%;
+	}
+
+	.header_nav__img {
+		width: 80%;
+	}
+
+	.main_section__description {
+		font-size: 13px;
+	}
+
+	.main_section__slider-image {
+		width: 70px;
+	}
+
+	.main_section__cont-select {
+		margin: 1%;
+	}
 }
